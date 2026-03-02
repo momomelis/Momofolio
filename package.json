@@ -15,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.97.0"
+  },
+  "overrides": {
+    "ws": "8.19.0"
   }
 }
