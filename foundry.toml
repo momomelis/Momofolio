@@ -1,0 +1,14 @@
+[profile.default]
+src     = "src"
+out     = "out"
+libs    = ["lib"]
+solc    = "0.8.20"
+
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+]
+
+# Run `forge install` to pull dependencies:
+#   forge install foundry-rs/forge-std
+#   forge install OpenZeppelin/openzeppelin-contracts
